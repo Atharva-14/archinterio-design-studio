@@ -39,6 +39,13 @@ const nextConfig = {
         port: "",
         pathname: "/photo-1485433592409-9018e83a1f0d/**",
       },
+      {
+        protocol: "https",
+        hostname: "firebasestorage.googleapis.com",
+        port: "",
+        pathname:
+          "/v0/b/archinterio-portfolio.appspot.com/o/About%2Fabout_interior_img.jpg",
+      },
     ],
   },
 };

@@ -13,7 +13,14 @@ const Home = () => {
     "https://firebasestorage.googleapis.com/v0/b/archinterio-portfolio.appspot.com/o/Home%2Fhome_image_slider_5.png?alt=media&token=82367e5b-7d53-4575-ae8b-46d034d1722a",
   ];
 
-  const words = ["extraordinary", "innovative", "cutting-edge", "unique"];
+  const words = [
+    "iconic",
+    "custom",
+    "signature",
+    "innovative",
+    "dream",
+    "cutting-edge",
+  ];
 
   return (
     <div>

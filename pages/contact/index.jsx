@@ -133,7 +133,10 @@ const Contact = () => {
                       type="checkbox"
                       ref={serviceRef.architecturalPlan}
                     />
-                    <label htmlFor="architecturalPlan" className="text-white">
+                    <label
+                      htmlFor="architecturalPlan"
+                      className="text-neutral-700 dark:text-neutral-200"
+                    >
                       Architectural Plan
                     </label>
                   </div>
@@ -143,7 +146,10 @@ const Contact = () => {
                       type="checkbox"
                       ref={serviceRef.elevation}
                     />
-                    <label htmlFor="elevation" className="text-white">
+                    <label
+                      htmlFor="elevation"
+                      className="text-neutral-700 dark:text-neutral-200"
+                    >
                       Elevation
                     </label>
                   </div>
@@ -153,7 +159,10 @@ const Contact = () => {
                       type="checkbox"
                       ref={serviceRef.interiorDesign}
                     />
-                    <label htmlFor="interiorDesign" className="text-white">
+                    <label
+                      htmlFor="interiorDesign"
+                      className="text-neutral-700 dark:text-neutral-200"
+                    >
                       Interior Design
                     </label>
                   </div>
@@ -163,7 +172,10 @@ const Contact = () => {
                       type="checkbox"
                       ref={serviceRef.visualization}
                     />
-                    <label htmlFor="visualization" className="text-white">
+                    <label
+                      htmlFor="visualization"
+                      className="text-neutral-700 dark:text-neutral-200"
+                    >
                       3D Visualization
                     </label>
                   </div>
@@ -173,7 +185,10 @@ const Contact = () => {
                       type="checkbox"
                       ref={serviceRef.drawings}
                     />
-                    <label htmlFor="drawings" className="text-white">
+                    <label
+                      htmlFor="drawings"
+                      className="text-neutral-700 dark:text-neutral-200"
+                    >
                       Architectural Drawings
                     </label>
                   </div>
@@ -183,7 +198,10 @@ const Contact = () => {
                       type="checkbox"
                       ref={serviceRef.others}
                     />
-                    <label htmlFor="others" className="text-white">
+                    <label
+                      htmlFor="others"
+                      className="text-neutral-700 dark:text-neutral-200"
+                    >
                       Others
                     </label>
                   </div>
@@ -248,16 +266,16 @@ const Contact = () => {
               className="mb-2"
             />
 
-            <p className="text-black dark:text-white text-base font-medium">
+            <p className="text-neutral-700 dark:text-neutral-200 text-base font-medium">
               Ar. Anushka Zade
             </p>
-            <p className="text-black dark:text-white text-base font-medium">
+            <p className="text-neutral-700 dark:text-neutral-200 text-base font-medium">
               Phone: +91-9822804978
             </p>
-            <p className="text-black dark:text-white text-base font-medium">
+            <p className="text-neutral-700 dark:text-neutral-200 text-base font-medium">
               Email: archinterio.pune06@gmail.com
             </p>
-            <p className="text-black dark:text-white text-base font-medium">
+            <p className="text-neutral-700 dark:text-neutral-200 text-base font-medium">
               Pune | Mumbai | Nagpur | Wani
             </p>
 
@@ -290,31 +308,31 @@ const Contact = () => {
               height={200}
               priority={true}
             />
-            <p className="text-black dark:text-white text-base font-medium">
+            <p className="text-neutral-700 dark:text-neutral-200 text-base font-medium">
               Rohan A. Zade
             </p>
-            <p className="text-black dark:text-white text-base font-medium">
+            <p className="text-neutral-700 dark:text-neutral-200 text-base font-medium">
               Phone: +91-8484966009
             </p>
-            <p className="text-black dark:text-white text-base font-medium">
+            <p className="text-neutral-700 dark:text-neutral-200 text-base font-medium">
               Email: rohanzade123@gmail.com
             </p>
 
             <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-2 h-[1px] w-full" />
 
-            <p className="text-black dark:text-white text-base font-medium">
+            <p className="text-neutral-700 dark:text-neutral-200 text-base font-medium">
               Arun M. Zade
             </p>
-            <p className="text-black dark:text-white text-base font-medium">
+            <p className="text-neutral-700 dark:text-neutral-200 text-base font-medium">
               Phone: +91-9689181520
             </p>
-            <p className="text-black dark:text-white text-base font-medium">
+            <p className="text-neutral-700 dark:text-neutral-200 text-base font-medium">
               Email: girijazade@gmail.com
             </p>
 
             <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-2 h-[1px] w-full" />
 
-            <p className="text-black dark:text-white text-base font-medium w-[250px]">
+            <p className="text-neutral-700 dark:text-neutral-200 text-base font-medium w-[250px]">
               Address: Kalmana Road, Lal Pulia, Chikalgaon, Wani, Yavatmal -
               445304
             </p>
