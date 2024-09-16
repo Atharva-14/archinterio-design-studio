@@ -1,4 +1,8 @@
-import { FlipWordsDemo } from "@/components/ui/sample";
+import {
+  DirectionAwareHoverDemo,
+  FlipWordsDemo,
+  LayoutGridDemo,
+} from "@/components/ui/sample";
 import Head from "next/head";
 
 const Services = () => {
@@ -9,7 +13,13 @@ const Services = () => {
         <meta></meta>
       </Head>
       <p className="text-white">Services</p>
-      <FlipWordsDemo />
+      <DirectionAwareHoverDemo />
+      <DirectionAwareHoverDemo />
+      <DirectionAwareHoverDemo />
+      <DirectionAwareHoverDemo />
+      <DirectionAwareHoverDemo />
+      <DirectionAwareHoverDemo />
+      <DirectionAwareHoverDemo />
     </>
   );
 };
