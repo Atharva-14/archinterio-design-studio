@@ -30,6 +30,9 @@ const Projects = () => {
         <meta></meta>
       </Head>
       <div className="p-4">
+        <h1 className="text-neutral-700 dark:text-neutral-200 text-4xl font-bold text-center mb-8">
+          Projects
+        </h1>
         <FocusCards cards={projects} />
       </div>
     </div>

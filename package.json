@@ -10,18 +10,21 @@
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.1.0",
+    "@react-three/fiber": "^8.17.7",
     "@tabler/icons-react": "^3.16.0",
+    "@types/three": "^0.168.0",
     "axios": "^1.7.7",
     "clsx": "^2.1.1",
     "framer-motion": "^11.5.4",
     "mongodb": "^6.9.0",
     "mongoose": "^8.6.2",
-    "next": "14.2.8",
+    "next": "^14.2.12",
     "nodemailer": "^6.9.15",
     "react": "^18",
     "react-dom": "^18",
     "tailwind-merge": "^2.5.2",
-    "tailwind-scrollbar": "^3.1.0"
+    "tailwind-scrollbar": "^3.1.0",
+    "three": "^0.168.0"
   },
   "devDependencies": {
     "postcss": "^8",
