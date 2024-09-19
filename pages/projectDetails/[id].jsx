@@ -6,6 +6,7 @@ import { DirectionAwareHover } from "@/components/ui/direction-aware-hover";
 
 const ProjectDetail = () => {
   const [project, setProject] = useState(null);
+  const [currentIndex, setCurrentIndex] = useState(0);
   const router = useRouter();
   const { id } = router.query;
 
@@ -17,6 +18,7 @@ const ProjectDetail = () => {
       const data = res.data.project;
 
       setProject(data);
+      setCurrentIndex(0);
     } catch (error) {
       console.error("Failed to fetch project:", error);
     }
@@ -28,7 +30,7 @@ const ProjectDetail = () => {
     }
   }, [id]);
 
-  if (!project) return <div>Loading...</div>; // Show loading state while fetching
+  if (!project) return <div>Loading...</div>;
 
   return (
     <div>
@@ -47,7 +49,7 @@ const ProjectDetail = () => {
           <div className="lg:w-1/4 w-full flex flex-col space-y-1">
             <span>
               <p className="text-xl font-medium text-neutral-700 dark:text-neutral-200">
-                Customer:
+                Client:
               </p>
               <p className="text-base ml-1 text-neutral-700 dark:text-neutral-200">
                 {project.name}
@@ -92,9 +94,13 @@ const ProjectDetail = () => {
           </div>
           <div className="flex flex-wrap justify-center gap-4 lg:w-3/4 w-full">
             {project.imageUrls.map((url, index) => (
-              <div key={index} className="">
-                <DirectionAwareHover imageUrl={url} />
-              </div>
+              <DirectionAwareHover
+                key={index}
+                imageUrl={url}
+                imageUrls={project.imageUrls}
+                currentIndex={currentIndex}
+                setCurrentIndex={setCurrentIndex}
+              />
             ))}
           </div>
         </div>

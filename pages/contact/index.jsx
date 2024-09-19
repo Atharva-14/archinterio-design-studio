@@ -283,17 +283,23 @@ const Contact = () => {
 
             <ul className="flex space-x-3 mt-1">
               <li>
-                <Link href="https://www.instagram.com/archinterio_design_studio/">
+                <Link
+                  href="https://www.instagram.com/archinterio_design_studio/"
+                  target="_blank"
+                >
                   <IconBrandInstagram className="text-neutral-700 dark:text-neutral-200 h-7 w-7 flex-shrink-0" />
                 </Link>
               </li>
               <li>
-                <Link href="https://www.linkedin.com/in/anushka-zade-420947214">
+                <Link
+                  href="https://www.linkedin.com/in/anushka-zade-420947214"
+                  target="_blank"
+                >
                   <IconBrandLinkedin className="text-neutral-700 dark:text-neutral-200 h-7 w-7 flex-shrink-0" />
                 </Link>
               </li>
               <li>
-                <Link href="https://www.x.com/archinterio_ds">
+                <Link href="https://www.x.com/archinterio_ds" target="_blank">
                   <IconBrandTwitter className="text-neutral-700 dark:text-neutral-200 h-7 w-7 flex-shrink-0" />
                 </Link>
               </li>
