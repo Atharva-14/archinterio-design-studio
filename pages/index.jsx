@@ -3,6 +3,7 @@ import { ImagesSlider } from "@/components/ui/ImageSlider";
 import { motion } from "framer-motion";
 import { FlipWords } from "@/components/ui/FlipWords";
 import Head from "next/head";
+import { IconBrandTwitter } from "@tabler/icons-react";
 
 const Home = () => {
   const images = [
@@ -26,7 +27,30 @@ const Home = () => {
     <div>
       <Head>
         <title>Home - ArchIntrio Design Studio</title>
-        <meta></meta>
+        <meta
+          name="description"
+          content="Welcome to ArchInterio Design Studio, where we create iconic and innovative spaces tailored to your vision."
+        />
+        <meta
+          name="keywords"
+          content="Architecture, Interior Design, Custom Spaces, Innovative Design, ArchInterio"
+        />
+        <meta name="author" content="ArchInterio Design Studio" />
+        <meta property="og:title" content="Home - ArchInterio Design Studio" />
+        <meta
+          property="og:description"
+          content="Explore our iconic and innovative designs at ArchInterio Design Studio."
+        />
+        <meta property="og:image" content="/logo.ico" />
+
+        <meta property="og:url" content="https://www.archinterio.co.in" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Home - ArchInterio Design Studio" />
+        <meta
+          name="twitter:description"
+          content="Welcome to ArchInterio Design Studio, where we create iconic and innovative spaces tailored to your vision."
+        />
+        <meta name="twitter:image" content={IconBrandTwitter} />
       </Head>
       <ImagesSlider className="h-[40rem] rounded-tl-2xl" images={images}>
         <motion.div

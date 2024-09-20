@@ -1,4 +1,5 @@
 import { CardSpotlight } from "@/components/ui/card-spotlight";
+import { IconBrandTwitter } from "@tabler/icons-react";
 import Head from "next/head";
 
 const Services = () => {
@@ -6,7 +7,38 @@ const Services = () => {
     <div className="p-4">
       <Head>
         <title>Services - ArchIntrio Design Studio</title>
-        <meta></meta>
+        <meta
+          name="description"
+          content="Explore the range of services offered by ArchInterio Design Studio, including architecture, interior design, and structural drawings."
+        />
+        <meta
+          name="keywords"
+          content="Architecture, Interior Design, Structural Drawings, Liaisoning, Fly Ash Bricks, ArchInterio Design Studio"
+        />
+        <meta name="author" content="ArchInterio Design Studio" />
+        <meta
+          property="og:title"
+          content="Services - ArchInterio Design Studio"
+        />
+        <meta
+          property="og:description"
+          content="Explore the range of services offered by ArchInterio Design Studio."
+        />
+        <meta property="og:image" content="/logo.ico" />
+        <meta
+          property="og:url"
+          content="https://www.archinterio.co.in/services"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Services - ArchInterio Design Studio"
+        />
+        <meta
+          name="twitter:description"
+          content="Explore the range of services offered by ArchInterio Design Studio."
+        />
+        <meta name="twitter:image" content={IconBrandTwitter} />
       </Head>
       <div className="px-4">
         <h1 className="text-neutral-700 dark:text-neutral-200 text-4xl font-bold text-center mb-8">

@@ -38,7 +38,7 @@ const ProjectDetail = () => {
         <title>{project.title} - ArchInterio Design Studio</title>
         <meta
           name="description"
-          content={`Details of project ${project.title}`}
+          content={`Details of project ${project.description}`}
         />
       </Head>
       <div className="p-4">

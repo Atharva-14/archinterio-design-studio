@@ -1,13 +1,39 @@
 import Head from "next/head";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { IconBrandTwitter } from "@tabler/icons-react";
 
 const About = () => {
   return (
     <div className="flex flex-col-reverse md:flex-row p-4 md:space-x-8 mx-auto max-w-screen-lg">
       <Head>
         <title>About - ArchIntrio Design Studio</title>
-        <meta name="description" content="About ArchIntrio Design Studio" />
+        <meta
+          name="description"
+          content="Learn about ArchIntrio Design Studio, a vibrant architectural and interior design firm based in Pune."
+        />
+        <meta
+          name="keywords"
+          content="About, ArchInterio, Design Studio, Architecture, Interior Design, Pune"
+        />
+        <meta name="author" content="ArchInterio Design Studio" />
+        <meta property="og:title" content="About - ArchIntrio Design Studio" />
+        <meta
+          property="og:description"
+          content="Discover the mission, vision, and services offered by ArchInterio Design Studio."
+        />
+        <meta
+          property="og:image"
+          content="https://firebasestorage.googleapis.com/v0/b/archinterio-portfolio.appspot.com/o/About%2Fabout_interior_img.jpg?alt=media&token=1cc7864b-4f73-43b0-81a3-429458722a07"
+        />
+        <meta property="og:url" content="https://www.archinterio.co.in/about" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="About - ArchIntrio Design Studio" />
+        <meta
+          name="twitter:description"
+          content="Learn about our innovative approach to architecture and design."
+        />
+        <meta name="twitter:image" content={IconBrandTwitter} />
       </Head>
 
       <div className="flex flex-col md:mt-0 mt-4 space-y-6">
