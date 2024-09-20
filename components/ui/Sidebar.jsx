@@ -124,6 +124,7 @@ export const SidebarLink = ({ link, className, ...props }) => {
     if (open) {
       setOpen(false);
     }
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (

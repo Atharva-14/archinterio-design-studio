@@ -29,7 +29,9 @@ export const Card = React.memo(
         <div
           className={cn(
             "absolute inset-0 bg-black/20 flex items-end py-8 px-4 transition-opacity duration-300",
-            hovered === index ? "opacity-100" : "opacity-0" // Control overlay visibility based on hover
+            hovered === index ? "opacity-100" : "opacity-0", // Hover effect for larger screens
+            "md:opacity-0", // Keep it hidden by default on larger screens
+            "opacity-100 md:hover:opacity-100" // Always visible on small screens, hidden on larger screens by default
           )}
         >
           <div className="text-xl md:text-2xl font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-200">

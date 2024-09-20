@@ -10,7 +10,7 @@ const Services = () => {
       </Head>
       <div className="px-4">
         <h1 className="text-neutral-700 dark:text-neutral-200 text-4xl font-bold text-center mb-8">
-          Services
+          SERVICES
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto max-w-screen-xl">
           <CardSpotlight className="h-full w-full">

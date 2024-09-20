@@ -5,6 +5,7 @@ import {
   IconBrandLinkedin,
   IconBrandTwitter,
   IconBuildingSkyscraper,
+  IconHome,
   IconInfoCircle,
   IconPhone,
   IconTools,
@@ -16,6 +17,13 @@ import Image from "next/image";
 
 const Layout = (props) => {
   const topLinks = [
+    {
+      label: "Home",
+      href: "/",
+      icon: (
+        <IconHome className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+      ),
+    },
     {
       label: "About",
       href: "/about",
