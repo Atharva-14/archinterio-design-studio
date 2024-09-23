@@ -259,11 +259,18 @@ const Contact = () => {
 
           <div className="max-w-md flex flex-col my-auto p-4 mx-auto">
             <Image
-              src="/arch_design_studio_logo.png"
+              src="/arch_design_studio_logo_dark.png"
               alt="ArchInterio Design Studio"
               width={175}
               height={175}
-              className="mb-2"
+              className="mb-2 dark:block hidden"
+            />
+            <Image
+              src="/arch_design_studio_logo_light.jpg"
+              alt="ArchInterio Design Studio"
+              width={175}
+              height={175}
+              className="mb-2 dark:hidden"
             />
 
             <p className="text-neutral-700 dark:text-neutral-200 text-base font-medium">
