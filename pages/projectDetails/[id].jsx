@@ -83,14 +83,14 @@ const ProjectDetail = () => {
               </p>
             </span>
 
-            <span>
+            {/* <span>
               <p className="text-xl font-medium text-neutral-700 dark:text-neutral-200">
                 Description:
               </p>
               <p className="text-base ml-1 text-neutral-700 dark:text-neutral-200">
                 {project.description}
               </p>
-            </span>
+            </span> */}
           </div>
           <div className="flex flex-wrap justify-center gap-4 lg:w-3/4 w-full">
             {project.imageUrls.map((url, index) => (
