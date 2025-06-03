@@ -17,7 +17,7 @@
     "clsx": "^2.1.1",
     "framer-motion": "^11.5.4",
     "mongodb": "^6.9.0",
-    "mongoose": "^8.6.2",
+    "mongoose": "^8.15.1",
     "next": "^14.2.12",
     "nodemailer": "^6.9.15",
     "react": "^18",

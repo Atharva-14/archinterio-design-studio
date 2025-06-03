@@ -135,6 +135,7 @@ export const SidebarLink = ({ link, className, ...props }) => {
         "flex items-center justify-start gap-2  group/sidebar py-2",
         className
       )}
+      aria-label={link.label}
       {...props}
     >
       {link.icon}

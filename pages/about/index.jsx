@@ -24,7 +24,7 @@ const About = () => {
         />
         <meta
           property="og:image"
-          content="https://firebasestorage.googleapis.com/v0/b/archinterio-portfolio.appspot.com/o/About%2Fabout_interior_img.jpg?alt=media&token=1cc7864b-4f73-43b0-81a3-429458722a07"
+          content="https://firebasestorage.googleapis.com/v0/b/archinterio-portfolio.appspot.com/o/About%2Fabout_interior_img.webp?alt=media&token=f5e18b4a-b921-4e19-a897-5c61a2db49aa"
         />
         <meta property="og:url" content="https://www.archinterio.co.in/about" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -91,7 +91,7 @@ const About = () => {
       </div>
       <div className="flex-shrink-0 md:w-1/2 my-auto">
         <Image
-          src="https://firebasestorage.googleapis.com/v0/b/archinterio-portfolio.appspot.com/o/About%2Fabout_interior_img.jpg?alt=media&token=1cc7864b-4f73-43b0-81a3-429458722a07"
+          src="https://firebasestorage.googleapis.com/v0/b/archinterio-portfolio.appspot.com/o/About%2Fabout_interior_img.webp?alt=media&token=f5e18b4a-b921-4e19-a897-5c61a2db49aa"
           alt="Interior Image"
           width={500}
           height={1000}

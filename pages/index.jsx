@@ -7,11 +7,11 @@ import { IconBrandTwitter } from "@tabler/icons-react";
 
 const Home = () => {
   const images = [
-    "https://firebasestorage.googleapis.com/v0/b/archinterio-portfolio.appspot.com/o/Home%2Fhome_image_slider_1.png?alt=media&token=7d6b3666-c91d-4d28-9ed5-0c5c03bb2713",
-    "https://firebasestorage.googleapis.com/v0/b/archinterio-portfolio.appspot.com/o/Home%2Fhome_image_slider_2.jpg?alt=media&token=de2ad4f6-9ba0-4905-885d-48c47e0dc656",
-    "https://firebasestorage.googleapis.com/v0/b/archinterio-portfolio.appspot.com/o/Home%2Fhome_image_slider_3.png?alt=media&token=683f75df-926a-48e0-92fb-b3905182d1ef",
-    "https://firebasestorage.googleapis.com/v0/b/archinterio-portfolio.appspot.com/o/Home%2Fhome_image_slider_4.png?alt=media&token=06516476-e3b1-46be-9021-92fa30f3007f",
-    "https://firebasestorage.googleapis.com/v0/b/archinterio-portfolio.appspot.com/o/Home%2Fhome_image_slider_5.png?alt=media&token=9b98e0ba-0d31-4cd2-b39f-0bd6c086edda",
+    "https://firebasestorage.googleapis.com/v0/b/archinterio-portfolio.appspot.com/o/Home%2Fhome_image_slider_1.webp?alt=media&token=d3343890-1146-42b9-9b0f-f929479267e8",
+    "https://firebasestorage.googleapis.com/v0/b/archinterio-portfolio.appspot.com/o/Home%2Fhome_image_slider_2.webp?alt=media&token=0c706221-1212-4a81-a65b-a14562986c46",
+    "https://firebasestorage.googleapis.com/v0/b/archinterio-portfolio.appspot.com/o/Home%2Fhome_image_slider_3.webp?alt=media&token=d7fc9ee5-03de-4558-b06e-b068be715f10",
+    "https://firebasestorage.googleapis.com/v0/b/archinterio-portfolio.appspot.com/o/Home%2Fhome_image_slider_4.webp?alt=media&token=173e538e-8bee-4361-9202-1a4b042f506c",
+    "https://firebasestorage.googleapis.com/v0/b/archinterio-portfolio.appspot.com/o/Home%2Fhome_image_slider_5.webp?alt=media&token=dfc12bbb-ccb8-4e43-b2db-5553a579b266",
   ];
 
   const words = [
