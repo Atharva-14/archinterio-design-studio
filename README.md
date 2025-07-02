@@ -1,20 +1,23 @@
-# 🏢 ArchInterio Design Studio – Portfolio Website(https://www.archinterio.co.in/)
+# 🏢 [ArchInterio Design Studio](https://www.archinterio.co.in/) – Portfolio Website
 
 This is a **portfolio website** developed for **ArchInterio Design Studio**, an architecture and interior design firm. The website showcases the studio's services, featured projects, client testimonials, and contact information with a clean, modern, and responsive design.
 
 ## 📸 Preview
 
-![Homepage](https://dqy38fnwh4fqs.cloudfront.net/UHBADNMEMPBD6QMHBG9RG87M68EL/projects/archinterio-design-studio76868e78-524d-4cad-80d6-188be291f5bc.webp)
+![Homepage](https://firebasestorage.googleapis.com/v0/b/archinterio-portfolio.appspot.com/o/Services%2Fhome-section.webp?alt=media&token=cd137e4b-1651-4aff-9b69-e4acafa066aa)
 _Homepage showcasing featured services and design approach_
 
-![About](https://dqy38fnwh4fqs.cloudfront.net/UHBADNMEMPBD6QMHBG9RG87M68EL/projects/archinterio-design-studio2496b421-022b-41d0-80eb-7920f6a2b4be.webp)
+![About](https://firebasestorage.googleapis.com/v0/b/archinterio-portfolio.appspot.com/o/Services%2Fabout-us-section.webp?alt=media&token=7cc46b76-ff93-4fe6-9155-18ab096fb5d7)
 _About section reflecting the studio’s vision, values, and commitment to innovative, client-centric design_
 
-![Projects](https://dqy38fnwh4fqs.cloudfront.net/UHBADNMEMPBD6QMHBG9RG87M68EL/projects/archinterio-design-studio9e9aa71d-a5d1-48e3-abba-89c1e226847d.webp)
+![Projects](https://firebasestorage.googleapis.com/v0/b/archinterio-portfolio.appspot.com/o/Services%2Fproject-section.webp?alt=media&token=ca2c0e45-b4e8-486e-bc54-868622b1091a)
 _Projects section highlighting key architectural and interior works_
 
 ![Services](https://firebasestorage.googleapis.com/v0/b/archinterio-portfolio.appspot.com/o/Services%2Fservices-section.png?alt=media&token=c33230fc-b3e9-45d9-a9c5-90218e44e2ad)
 _Services section showcasing customized interior design, architectural planning, structural drawings, liaisoning and Fly Ash Bricks_
+
+![Contact](https://firebasestorage.googleapis.com/v0/b/archinterio-portfolio.appspot.com/o/Services%2Fservices-section.png?alt=media&token=c33230fc-b3e9-45d9-a9c5-90218e44e2ad)
+_Contact section highlighting contact details to connect with the firm._
 
 ## ✨ Features
 
