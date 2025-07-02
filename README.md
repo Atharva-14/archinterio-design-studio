@@ -1,40 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏢 ArchInterio Design Studio – Portfolio Website(https://www.archinterio.co.in/)
 
-## Getting Started
+This is a **portfolio website** developed for **ArchInterio Design Studio**, an architecture and interior design firm. The website showcases the studio's services, featured projects, client testimonials, and contact information with a clean, modern, and responsive design.
 
-First, run the development server:
+## 📸 Preview
+
+![Homepage](https://dqy38fnwh4fqs.cloudfront.net/UHBADNMEMPBD6QMHBG9RG87M68EL/projects/archinterio-design-studio76868e78-524d-4cad-80d6-188be291f5bc.webp)
+_Homepage showcasing featured services and design approach_
+
+![About](https://dqy38fnwh4fqs.cloudfront.net/UHBADNMEMPBD6QMHBG9RG87M68EL/projects/archinterio-design-studio2496b421-022b-41d0-80eb-7920f6a2b4be.webp)
+_About section reflecting the studio’s vision, values, and commitment to innovative, client-centric design_
+
+![Projects](https://dqy38fnwh4fqs.cloudfront.net/UHBADNMEMPBD6QMHBG9RG87M68EL/projects/archinterio-design-studio9e9aa71d-a5d1-48e3-abba-89c1e226847d.webp)
+_Projects section highlighting key architectural and interior works_
+
+![Services](https://firebasestorage.googleapis.com/v0/b/archinterio-portfolio.appspot.com/o/Services%2Fservices-section.png?alt=media&token=c33230fc-b3e9-45d9-a9c5-90218e44e2ad)
+_Services section showcasing customized interior design, architectural planning, structural drawings, liaisoning and Fly Ash Bricks_
+
+## ✨ Features
+
+- Clean and elegant UI/UX
+- Responsive design for desktop, tablet, and mobile
+- Dynamic projects section powered by Firebase/Firestore
+- Services section showcasing offerings with clear visuals and descriptions
+- About section presenting company philosophy and design approach
+- Testimonials and Contact form with email integration
+- Firebase Hosting setup
+
+## 🛠️ Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Firebase](https://firebase.google.com/)
+- [Firestore](https://firebase.google.com/products/firestore)
+
+## 🚀 Getting Started
+
+To run the project locally:
 
 ```bash
+git clone https://github.com/Atharva-14/archinterio-design-studio.git
+cd archinterio-design-studio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧪 Scripts
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- `npm run dev` – Start development server
+- `npm run build` – Build for production
+- `npm run start` – Start production build
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 📁 Folder Structure
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+├── components/         # Reusable UI components
+├── libs/               # Custom utility functions or API handlers
+├── pages/              # Next.js pages routing system
+├── public/             # Static assets (images, icons, etc.)
+├── styles/             # Tailwind and global CSS
+├── utils/              # Helper functions or constants
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📄 License
 
-## Learn More
+This project is licensed under the MIT License.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Crafted with ❤️ for **ArchInterio Design Studio** by [Atharva Muratkar](https://atharva-muratkar-portfolio.vercel.app/)
